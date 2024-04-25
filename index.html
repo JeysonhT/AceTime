@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AceTime</title>
+    <link rel="stylesheet" href="@material/web/dist/mdc.css">
+    <script src="@material/web/dist/mdc.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <
+
+</head>
+<body>
+    <script type="module" src="./main.js"></script>
+<div class="container">
+    <h2>Crear Recordatorio</h2>
+    <form id="recordatorioForm">
+        <label>Nombre del Medicamento: </label>
+        <input type="text" id="nombre" name="medicamento" required><br><br>
+        <Label>Fecha del Recordatorio</Label>
+        <input type="date" id="fecha" name="Fecha" required>
+        <label>Hora del Recordatorio: </label>
+        <input type="time" id="hora" name="hora del medicamento" required><br><br>
+
+        <button id="guardarRecordatorios" type="submit">Agregar Recordatorio</button>
+    </form>
+
+    <h2>Medicinas pendientes</h2>
+
+    <div id="listaRecordatorios">
+        
+
+    </div>
+</div>
+    
+</body>
+</html>
